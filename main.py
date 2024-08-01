@@ -2,7 +2,7 @@
 
 import streamlit as st
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 import openai
 from groq import Groq
@@ -38,7 +38,7 @@ st.title("Islamic Chatbot")
 st.write("Hello! I'm an Islamic chatbot. I'm here to provide information and guidance on Islamic topics. Let's start!")
 
 # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 
 #For Streamlit & AWS
